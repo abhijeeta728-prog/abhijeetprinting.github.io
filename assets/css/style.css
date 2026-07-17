@@ -1,1 +1,61 @@
 /* Abhijeet Printing CSS */
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f5f5f5;
+    color:#222;
+}
+
+header{
+    background:#d32f2f;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+}
+
+header h1{
+    margin:0;
+    font-size:32px;
+}
+
+header p{
+    margin:8px 0 0;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    padding:20px;
+}
+
+.btn{
+    display:inline-block;
+    background:#25D366;
+    color:#fff;
+    padding:12px 20px;
+    margin:8px;
+    text-decoration:none;
+    border-radius:6px;
+    font-weight:bold;
+}
+
+.btn.call{
+    background:#1976D2;
+}
+
+.card{
+    background:#fff;
+    padding:20px;
+    margin:15px 0;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,.15);
+}
+
+footer{
+    background:#222;
+    color:#fff;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
