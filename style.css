@@ -59,3 +59,65 @@ padding-left:20px;
 li{
 margin:8px 0;
 }
+/* ===== HERO SECTION ===== */
+
+.hero{
+    margin:20px 0;
+    background:#ffffff;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 2px 8px rgba(0,0,0,.15);
+    text-align:center;
+}
+
+.hero-image{
+    width:100%;
+    display:block;
+}
+
+.hero-content{
+    padding:20px;
+}
+
+.hero-content h2{
+    color:#d32f2f;
+    margin-bottom:10px;
+}
+
+.hero-text{
+    font-size:17px;
+    color:#333;
+    line-height:1.6;
+    margin-bottom:20px;
+}
+
+.hero-buttons{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:10px;
+}
+
+.hero-buttons a{
+    text-decoration:none;
+    color:#fff;
+    padding:12px 18px;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+.call-btn{
+    background:#1565c0;
+}
+
+.whatsapp-btn{
+    background:#25D366;
+}
+
+.map-btn{
+    background:#ff9800;
+}
+
+.order-btn{
+    background:#d32f2f;
+}
