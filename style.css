@@ -187,3 +187,32 @@ color:#fff;
 .why-card:hover h3{
     color:#ffffff;
 }
+/* ===== FOOTER ===== */
+
+.footer{
+    background:#222;
+    color:#fff;
+    text-align:center;
+    padding:25px 15px;
+    margin-top:30px;
+}
+
+.footer h2{
+    color:#ffffff;
+    margin-bottom:15px;
+}
+
+.footer p{
+    margin:10px 0;
+    color:#dddddd;
+}
+
+.footer a{
+    color:#25D366;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.footer a:hover{
+    color:#ffffff;
+}
