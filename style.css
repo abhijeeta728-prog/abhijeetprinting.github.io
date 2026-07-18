@@ -216,3 +216,65 @@ color:#fff;
 .footer a:hover{
     color:#ffffff;
 }
+/* ===== HERO SIMPLE ===== */
+
+.hero-simple{
+background:linear-gradient(135deg,#d32f2f,#b71c1c);
+padding:35px 20px;
+text-align:center;
+color:#fff;
+border-radius:0 0 18px 18px;
+}
+
+.hero-simple h1{
+margin:0;
+font-size:34px;
+letter-spacing:2px;
+font-weight:bold;
+}
+
+.hero-simple p{
+margin:15px auto 25px;
+font-size:17px;
+line-height:1.7;
+max-width:700px;
+color:#fff;
+}
+
+.hero-buttons{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:12px;
+}
+
+.hero-buttons a{
+display:inline-block;
+padding:12px 20px;
+border-radius:10px;
+font-weight:bold;
+text-decoration:none;
+color:#fff;
+transition:.3s;
+}
+
+.call-btn{
+background:#1565c0;
+}
+
+.whatsapp-btn{
+background:#25D366;
+}
+
+.map-btn{
+background:#ff9800;
+}
+
+.order-btn{
+background:#212121;
+}
+
+.hero-buttons a:hover{
+transform:translateY(-2px);
+opacity:.9;
+}
