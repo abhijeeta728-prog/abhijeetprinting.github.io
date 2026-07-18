@@ -144,3 +144,46 @@ box-shadow:0 3px 8px rgba(0,0,0,.15);
 background:#d32f2f;
 color:#fff;
 }
+/* ===== WHY CHOOSE US ===== */
+
+.why-us{
+    margin:20px 0;
+    padding:20px;
+    background:#ffffff;
+    border-radius:12px;
+}
+
+.why-us h2{
+    text-align:center;
+    color:#d32f2f;
+    margin-bottom:20px;
+}
+
+.why-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+}
+
+.why-card{
+    background:#fff8f8;
+    border:2px solid #d32f2f;
+    border-radius:12px;
+    padding:15px;
+    text-align:center;
+    box-shadow:0 3px 8px rgba(0,0,0,.12);
+}
+
+.why-card h3{
+    color:#d32f2f;
+    margin-bottom:10px;
+}
+
+.why-card:hover{
+    background:#d32f2f;
+    color:#ffffff;
+}
+
+.why-card:hover h3{
+    color:#ffffff;
+}
