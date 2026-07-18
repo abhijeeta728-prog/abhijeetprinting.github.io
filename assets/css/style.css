@@ -226,21 +226,17 @@ border:2px solid #1565c0!important;
 border-radius:12px!important;
 padding:18px!important;
 box-shadow:0 3px 10px rgba(0,0,0,.15)!important;
+.hero-title{
+    text-align:center;
+    font-size:30px;
+    font-weight:800;
+    line-height:1.3;
+    letter-spacing:1px;
+    margin:0;
+    word-break:break-word;
 }
-/* ===== HERO IMPROVEMENT ===== */
+}
 
-.hero-simple{
-padding:20px 15px !important;
-border-radius:0 0 20px 20px;
-}
-
-.hero-simple h1{
-font-size:28px;
-font-weight:800;
-letter-spacing:1px;
-margin-bottom:10px;
-white-space:nowrap;
-}
 
 .hero-simple p{
 font-size:18px;
