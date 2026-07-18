@@ -59,3 +59,57 @@ footer{
     padding:15px;
     margin-top:30px;
 }
+/* ===== MOBILE RESPONSIVE ===== */
+
+@media (max-width:768px){
+
+body{
+padding:8px;
+}
+
+.hero-simple{
+padding:25px 15px;
+}
+
+.hero-simple h1{
+font-size:28px;
+}
+
+.hero-simple p{
+font-size:16px;
+}
+
+.hero-buttons{
+flex-direction:column;
+}
+
+.hero-buttons a{
+width:100%;
+}
+
+.services-grid{
+grid-template-columns:1fr;
+}
+
+.why-grid{
+grid-template-columns:1fr;
+}
+
+.service-card,
+.why-card{
+padding:18px;
+}
+
+.footer{
+padding:20px 10px;
+}
+
+.footer h2{
+font-size:24px;
+}
+
+.footer p{
+font-size:15px;
+}
+
+}
