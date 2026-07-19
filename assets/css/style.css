@@ -333,3 +333,32 @@ body{
     font-weight:bold;
     color:#d32f2f;
 }
+.gallery-item:hover{
+    transform:translateY(-5px);
+    transition:.3s;
+    box-shadow:0 6px 20px rgba(0,0,0,.18);
+}
+
+.contact-box{
+    margin:30px 15px;
+    padding:20px;
+    background:#ffffff;
+    border:2px solid #1565c0;
+    border-radius:18px;
+}
+
+.contact-box h2{
+    color:#1565c0;
+    margin-bottom:15px;
+}
+
+.contact-box p{
+    margin:12px 0;
+    line-height:1.7;
+}
+
+.contact-box a{
+    color:#d32f2f;
+    text-decoration:none;
+    font-weight:bold;
+}
