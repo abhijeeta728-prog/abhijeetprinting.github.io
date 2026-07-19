@@ -256,9 +256,9 @@ body{
 }
 
 .hero-simple{
-    
-}background:linear-gradient(135deg,#1565c0,#42a5f5);
-color:#ffffff;
+    background:linear-gradient(135deg,#1565c0,#42a5f5);
+    color:#ffffff;
+}
 .hero-title{
     display:flex;
     justify-content:center;
