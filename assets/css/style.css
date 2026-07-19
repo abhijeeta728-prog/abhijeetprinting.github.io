@@ -457,3 +457,29 @@ footer p{
     border-top:1px solid #bdbdbd;
     margin:22px 0;
 }
+/* ===== VERSION 7 FINAL - BUTTON FIX ===== */
+
+.hero-buttons{
+    display:grid !important;
+    grid-template-columns:repeat(2,minmax(0,1fr)) !important;
+    gap:12px !important;
+    width:100% !important;
+}
+
+.hero-buttons a{
+    width:100% !important;
+    max-width:100% !important;
+    margin:0 !important;
+    padding:16px 8px !important;
+    box-sizing:border-box !important;
+    overflow:hidden !important;
+    border-radius:14px !important;
+    font-size:20px !important;
+    justify-content:center !important;
+}
+
+@media(max-width:768px){
+    .hero-buttons{
+        grid-template-columns:1fr !important;
+    }
+}
