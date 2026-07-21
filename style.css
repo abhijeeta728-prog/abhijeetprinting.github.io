@@ -61,14 +61,6 @@ margin:8px 0;
 }
 /* ===== HERO SECTION ===== */
 
-.hero{
-    margin:20px 0;
-    background:#ffffff;
-    border-radius:12px;
-    overflow:hidden;
-    box-shadow:0 2px 8px rgba(0,0,0,.15);
-    text-align:center;
-}
 
 .hero-image{
     width:100%;
@@ -77,11 +69,6 @@ margin:8px 0;
 
 .hero-content{
     padding:20px;
-}
-
-.hero-content h2{
-    color:#d32f2f;
-    margin-bottom:10px;
 }
 
 .hero-text{
