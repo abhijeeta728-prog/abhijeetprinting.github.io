@@ -392,3 +392,34 @@ height:120px !important;
 }
 
 }
+/* ===== Social Links ===== */
+
+.social-links{
+    margin-top:15px;
+    display:flex;
+    justify-content:center;
+    gap:12px;
+    flex-wrap:wrap;
+}
+
+.social-links a{
+    text-decoration:none;
+    color:#fff;
+    font-weight:bold;
+    padding:10px 18px;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+.social-links a:first-child{
+    background:#1877F2;
+}
+
+.social-links a:last-child{
+    background:#E4405F;
+}
+
+.social-links a:hover{
+    opacity:0.9;
+    transform:translateY(-2px);
+}
