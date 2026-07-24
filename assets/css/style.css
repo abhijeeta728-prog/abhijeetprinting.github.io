@@ -423,3 +423,40 @@ height:120px !important;
     opacity:0.9;
     transform:translateY(-2px);
 }
+/* ===== BUTTON LAYOUT FIX ===== */
+
+.hero-buttons{
+    display:grid !important;
+    grid-template-columns:repeat(2,1fr) !important;
+    gap:12px !important;
+}
+
+.hero-buttons > a,
+.hero-buttons .social-links a{
+    width:100% !important;
+    box-sizing:border-box !important;
+    height:56px !important;
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    border-radius:10px !important;
+    font-size:18px !important;
+    font-weight:bold !important;
+}
+
+.social-links{
+    display:contents !important;
+}
+
+.call-btn{background:#1565c0 !important;}
+.whatsapp-btn{background:#25D366 !important;}
+.map-btn{background:#ff9800 !important;}
+.order-btn{background:#d32f2f !important;}
+
+.social-links a:first-child{
+    background:#1877F2 !important;
+}
+
+.social-links a:last-child{
+    background:#E4405F !important;
+}
